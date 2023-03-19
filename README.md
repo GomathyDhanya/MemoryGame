@@ -1,6 +1,10 @@
 # MemoryGame
-A Small memory game using HTML, CSS and Javascript.\n
+A Small memory game using HTML, CSS and Javascript.
+
+
 Demo : https://memorygamegomi.netlify.app/
+
+
 Includes:
 1. Dynamic number of cards
 2. timer
