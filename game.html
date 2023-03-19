@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Match Game!</title>
+
+        <link rel="stylesheet" href="gamestyle.css">
+    </head>
+    <body>
+        <div class="main">
+            <h1>Memory Game!</h1>
+            <div>
+                <input type="number" name="numpairs" id="numpairs" min="5" max="10" value="5">
+                <button id="start">New Game</button>
+                
+            </div>
+            <div id="statuscard">
+            <h3>SCORE  <span id="score" style="color: #CBE4DE;">0</span></h3>
+            <h3>LEVEL  <span id="level" style="color: #CBE4DE;">1</span></h3>
+            <h3>TIME LEFT <span id="timer" style="color: #CBE4DE;"></span></h3>
+            <h3>HIGH SCORE  <span id="highscore"  style="color: #CBE4DE;"></span></h3>
+            </div>
+            <div id="board">
+            </div>
+            <h1 id="outcome"></h1>
+        </div>
+
+        <script src="game.js"></script>
+    </body>
+</html>
